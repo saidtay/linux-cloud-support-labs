@@ -1,0 +1,19 @@
+# Day 10 Ping
+
+## Command Learned
+
+- ping
+
+## What I Learned
+
+ping tests network connectivity.
+
+## Examples
+
+ping google.com
+
+ping 8.8.8.8
+
+## Summary
+
+Today I learned how to test connectivity in Linux.
