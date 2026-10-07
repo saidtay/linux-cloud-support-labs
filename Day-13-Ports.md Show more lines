@@ -1,0 +1,19 @@
+# Day 13 Ports
+
+## What I Learned
+
+A port is a door for a network service.
+
+## Common Ports
+
+22 = SSH
+
+80 = HTTP
+
+443 = HTTPS
+
+53 = DNS
+
+## Summary
+
+Today I learned what ports are and why they are important.
