@@ -1,0 +1,13 @@
+Day 43 CloudTrail Basics
+What I Learned
+CloudTrail is an AWS audit service.
+
+CloudTrail records API activity.
+
+CloudTrail helps answer:
+
+Who performed an action?
+What action was performed?
+When did it happen?
+Summary
+Today I learned the basics of AWS CloudTrail.
