@@ -1,0 +1,11 @@
+Day 48 - Connection Refused
+Meaning
+Connection refused indicates that the server is reachable but the SSH service is unavailable.
+
+Checks
+SSH Service Status
+Port 22 Listener
+SSH Logs
+SSH Configuration
+Key Takeaway
+Connection refused is usually related to the SSH service, not network connectivity.
