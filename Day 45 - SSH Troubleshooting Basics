@@ -1,0 +1,7 @@
+Day 45 - SSH Troubleshooting Basics
+Objective
+Understand common SSH connection errors.
+
+Commands
+sudo systemctl status ssh
+sudo ss -lntp | grep :22
