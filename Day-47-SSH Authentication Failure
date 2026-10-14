@@ -1,0 +1,14 @@
+Day 47 - SSH Authentication Failure
+Meaning
+Permission denied (publickey) indicates an authentication issue.
+
+Checks
+Username
+SSH Key
+authorized_keys
+Common Causes
+Wrong Username
+Wrong Key Pair
+Missing authorized_keys
+Key Takeaway
+The server is reachable, but authentication has failed.
