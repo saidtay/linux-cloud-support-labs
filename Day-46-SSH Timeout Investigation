@@ -1,0 +1,12 @@
+Day 46 - SSH Timeout Investigation
+Objective
+Investigate SSH timeout issues.
+
+Checks
+Instance State
+Public IP
+Security Group
+Route Table
+Internet Gateway
+Key Concept
+Connection timed out usually indicates a network connectivity issue.
