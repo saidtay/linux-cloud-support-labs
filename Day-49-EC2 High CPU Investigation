@@ -1,0 +1,22 @@
+Day 49 - EC2 High CPU Investigation
+Objective
+Investigate a slow EC2 instance caused by high CPU utilization.
+
+Environment
+Amazon Linux 2023
+t2.micro
+SSH access enabled
+Investigation Steps
+Connected to EC2
+Generated CPU load using stress
+Monitored CPU usage
+Identified the top CPU-consuming process
+Stopped the process
+Verified system recovery
+Commands Used
+top
+uptime
+free -m
+ps aux --sort=-%cpu | head
+stress --cpu 2 --timeout 300
+pkill stress
