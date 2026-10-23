@@ -1,0 +1,8 @@
+Day 50 - Disk Full Investigation
+Objective
+Investigate a server issue caused by high disk usage.
+
+Commands Used
+df -h
+du -sh
+rm largefile.bin
