@@ -1,0 +1,7 @@
+Day 51 - Service Stopped Investigation
+Objective
+Investigate a website outage caused by a stopped service.
+
+Commands Used
+sudo systemctl status httpd
+sudo systemctl start httpd
