@@ -1,0 +1,6 @@
+Day 52 - Security Group Investigation
+Objective
+Investigate a website accessibility issue.
+
+Commands Used
+sudo systemctl status httpd
