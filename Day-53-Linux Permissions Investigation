@@ -1,0 +1,10 @@
+Day 53 - Linux Permissions Investigation
+Objective
+Investigate a file access issue caused by Linux permissions.
+
+Commands Used
+id
+ls -l
+ls -ld
+chmod 644 important.txt
+chmod 755 /home/ec2-user
