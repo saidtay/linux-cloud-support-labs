@@ -1,0 +1,12 @@
+Day 55 - HTTP vs HTTPS
+Objective
+Understand the difference between HTTP and HTTPS and configure HTTPS using a self-signed certificate.
+
+Commands Used
+openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -days 365 -nodes
+
+sudo apachectl configtest
+
+sudo systemctl restart httpd
+
+sudo ss -tlnp | grep 443
