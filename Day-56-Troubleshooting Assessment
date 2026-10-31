@@ -1,0 +1,21 @@
+Day 56 - Troubleshooting Assessment
+Issue
+Website unavailable.
+
+Investigation
+Checked Apache service status
+Verified Security Group rules
+Evidence
+Apache was running
+Port 80 was missing
+Root Cause
+Missing HTTP (Port 80) rule in the Security Group.
+
+Resolution
+Restored the HTTP inbound rule.
+
+Verification
+Verified website accessibility using curl and a web browser.
+
+Key Takeaway
+Always collect evidence before drawing conclusions.
