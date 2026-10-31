@@ -1,0 +1,16 @@
+Day 57 - SSH Timeout Investigation
+Objective
+Investigate an SSH connection timeout.
+
+Investigation
+Verified EC2 instance state
+Verified Public IP address
+Reviewed Security Group rules
+Root Cause
+Port 22 was not allowed in the Security Group.
+
+Resolution
+Added an SSH rule on Port 22 and verified connectivity.
+
+Key Takeaway
+Connection timed out usually indicates a network-related issue rather than an authentication issue.
