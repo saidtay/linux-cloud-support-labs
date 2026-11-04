@@ -1,0 +1,22 @@
+Day 60 - Internet Gateway Investigation
+Objective
+Understand the role of an Internet Gateway in AWS networking.
+
+Investigation
+Verified Public IP address
+Reviewed Security Group rules
+Checked Route Table configuration
+Verified Internet Gateway attachment
+Root Cause
+The Internet Gateway was missing, detached, or incorrectly configured.
+
+Resolution
+Corrected the Internet Gateway configuration and restored connectivity.
+
+Key Takeaway
+Internet access requires:
+
+Public IP
+Security Group
+Route Table
+Internet Gateway
