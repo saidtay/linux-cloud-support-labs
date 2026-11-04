@@ -1,0 +1,16 @@
+Day 58 - Public vs Private Subnet
+Objective
+Understand the difference between public and private EC2 instances.
+
+Investigation
+Created two EC2 instances:
+
+One with a Public IPv4 address
+One without a Public IPv4 address
+Findings
+The instance with a Public IP allowed SSH access.
+
+The instance without a Public IP could not be accessed directly using SSH from the internet.
+
+Key Takeaway
+A Public IP address is required for direct internet access to an EC2 instance.
