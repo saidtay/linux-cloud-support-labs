@@ -1,0 +1,24 @@
+Day 59 - Route Table Investigation
+Objective
+Understand how Route Tables affect internet connectivity.
+
+Investigation
+Verified Public IP address
+Verified Security Group rules
+Reviewed Route Table configuration
+Checked Internet Gateway connectivity
+Root Cause
+The Route Table was missing or had an incorrect route to the Internet Gateway.
+
+Resolution
+Configured the correct route:
+
+0.0.0.0/0 → Internet Gateway
+
+Key Takeaway
+Internet access requires:
+
+Public IP
+Security Group
+Route Table
+Internet Gateway
