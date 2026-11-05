@@ -1,0 +1,19 @@
+Day 61 - Network ACL Investigation
+Objective
+Understand how Network ACLs affect EC2 connectivity.
+
+Investigation
+Verified Security Group rules
+Reviewed Network ACL rules
+Tested SSH connectivity
+Findings
+SSH was allowed in the Security Group but denied by the Network ACL.
+
+Root Cause
+A DENY rule blocked port 22 traffic.
+
+Resolution
+Removed the deny rule and verified SSH connectivity.
+
+Key Takeaway
+Traffic must be allowed by both Security Groups and Network ACLs.
