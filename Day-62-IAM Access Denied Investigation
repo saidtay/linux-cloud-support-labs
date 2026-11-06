@@ -1,0 +1,16 @@
+Day 62 - IAM Access Denied Investigation
+Objective
+Investigate an Access Denied error when accessing an S3 bucket.
+
+Investigation
+Reviewed IAM user permissions
+Checked attached policies
+Identified missing S3 permissions
+Root Cause
+The IAM user did not have the required permissions to access the S3 bucket.
+
+Resolution
+Attached the AmazonS3ReadOnlyAccess policy and verified access.
+
+Key Takeaway
+Access Denied errors are often caused by missing IAM permissions.
