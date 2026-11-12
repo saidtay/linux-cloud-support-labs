@@ -1,0 +1,19 @@
+Day 63 - IAM Policies Investigation
+Objective
+Understand how IAM policies affect user permissions.
+
+Investigation
+Created IAM user
+Attached AmazonS3ReadOnlyAccess
+Tested access to S3 bucket
+Findings
+The user could view files but could not upload files.
+
+Root Cause
+The attached policy only allowed read operations.
+
+Resolution
+Replaced AmazonS3ReadOnlyAccess with AmazonS3FullAccess.
+
+Key Takeaway
+IAM policies determine what actions a user can perform on AWS resources.
