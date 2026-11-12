@@ -1,0 +1,22 @@
+Day 64 - IAM Groups Investigation
+Objective
+Understand how IAM Groups manage permissions for multiple users.
+
+Investigation
+Created an IAM Group
+Attached an S3 policy to the group
+Added a user to the group
+Verified access inheritance
+Findings
+The user received permissions through the IAM Group.
+
+When the user was removed from the group, access was lost.
+
+Root Cause
+Permissions were inherited from the IAM Group.
+
+Resolution
+Added the user back to the group and verified access.
+
+Key Takeaway
+IAM Groups simplify permission management by assigning policies to groups instead of individual users.
